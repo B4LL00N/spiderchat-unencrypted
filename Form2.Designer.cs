@@ -73,11 +73,11 @@ namespace pókchat
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(42, 64);
+            this.label2.Location = new System.Drawing.Point(125, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(411, 37);
+            this.label2.Size = new System.Drawing.Size(244, 37);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Made by crinobaka and CaptainK";
+            this.label2.Text = "Made by crinobaka";
             // 
             // Form2
             // 

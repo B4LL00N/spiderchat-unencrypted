@@ -72,7 +72,7 @@ namespace pókchat
         }
 
         private void btConnect_Click(object sender, EventArgs e)
-        {
+        {//Connecting
             try
             {
                 epLocal = new IPEndPoint(IPAddress.Parse(tbClientIP.Text), Convert.ToInt32(tbClientPort.Text));
@@ -95,7 +95,7 @@ namespace pókchat
         }
 
         private void btSend_Click(object sender, EventArgs e)
-        {
+        {//sending
             try
             {
                 System.Text.ASCIIEncoding enc = new System.Text.ASCIIEncoding();
@@ -105,7 +105,9 @@ namespace pókchat
                 sck.Send(msg);
                 lbChat.Items.Add("Client: " + tbChat.Text);
                 tbChat.Clear();
-                
+                tbChat.Focus();
+
+
             }
             catch (Exception ex)
             {
